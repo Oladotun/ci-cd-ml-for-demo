@@ -32,7 +32,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Comment PR
-        uses: Oladotun/Oladotun-patch-1@v2
+        uses: thollander/actions-comment-pull-request@v2
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           message: |
